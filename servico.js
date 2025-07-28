@@ -1,5 +1,6 @@
 class ServicoCalculoFatura{
 
+// construtor
 constructor(repo){
   this.repo = repo;
 }
@@ -54,4 +55,5 @@ calcularTotalFatura(faturaJSON) {
 }
 
 }
+// exportando módulo
 module.exports = ServicoCalculoFatura
